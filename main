@@ -4,3 +4,10 @@
 git commit -a -m 'log message'
 	// -a 用于跳过git add 步骤，直接commit
 	// -m 用于指明commit log
+
+分支
+git branch branch_name    // 创建分支
+git checkout branch_name  // 切换到分支branch_name
+
+以上操作等价于
+git checkout -b branch_name // 创建并切换到分支branch_name
