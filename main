@@ -1,1 +1,8 @@
 该文档主要用来整理git的使用方法，关于git的详细使用，可参考https://github.com/progit/progit/tree/master/zh
+
+分支
+git branch branch_name    // 创建分支
+git checkout branch_name  // 切换到分支branch_name
+
+以上操作等价于
+git checkout -b branch_name // 创建并切换到分支branch_name
