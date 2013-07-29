@@ -25,4 +25,13 @@ git branch --no-merged		// 用于查看未合并到当前分支的分支
 		a, 根据标准的冲突解决标记，手动修改源文件，
 		b, git mergetool，利用可视化工具解决冲突
 		c, git commit
-	 
+
+----------------
+远程仓库
+git remote									// 列出每个远程仓库的简短名字
+git remote -v								// -v 参数用于显示对应的克隆地址
+git remote add gb https://github.com/datetree/git_basic.git   // 添加远程仓库，我的理解gb相当于是远程仓库的简称
+git remote rename gb git_basic // 远程仓库重命名
+git remote rm gb						// 删除远程仓库
+git fetch remote_name       // 从远程仓库抓取数据到本地
+git push remote_name branch_name // 将本地分支的数据推送到远程仓库
